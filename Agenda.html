@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catmovel Petshop</title>
+</head>
+<body>
+    <table style="align-items: center;display: flex;justify-content: center;">
+        <tr>
+            <td style="padding-right: 10px;"><a href="Home.html">HOME</a></td>
+            <td style="padding-right: 10px;"><a href="Loja.html">LOJA</a></td>
+            <td style="padding-right: 10px;"><a href="Agenda.html"><b>AGENDA</b></a></td>
+            <td style="padding-right: 10px;"><a href="Contato.html">CONTATO</a></td>
+            <td style="padding-right: 10px;"><a href="Adocao.html">ADOÇAO</a></td>
+        </tr>
+    </table>
+
+    <h1>Faça um agendamento de consulta ou banho</h1>
+    <h3>Nos trabalhamos apenas de segunda a segunda (Incluso emergencias)</h3>
+
+    <form>
+        <label name="Nome">Qual o seu nome?</label>
+        <br>
+        <input type="text" name="Nome" id="Nome" required>
+
+        <hr>
+
+        <label name="Tele">Qual o seu Telefone?</label>
+        <br>
+        <input type="Tel" name="Tele" id="Tele" required>
+
+        <hr>
+
+        <label name="mail">Qual o seu e-mail?</label>
+        <br>
+        <input type="email" name="mail" id="mail" required>
+
+        <hr>
+
+        <label name="Bichinho">Qual seu bichinho?</label>
+        <br>
+        <select>
+            <option>Cachorro</option>
+            <option>Gato</option>
+            <option>Gecko</option>
+            <option>Papagaio</option>
+            <option>Outros</option>
+        </select>
+
+        <hr>
+
+        <label name="Assunto">Assunto do agendamento</label>
+        <br>
+        <input type="radio" name="Assunto">Banho
+        <input type="radio" name="Assunto">Consulta
+
+        <hr>
+
+        <label>Porque do agendamento?</label>
+        <br>
+        <textarea required></textarea>
+
+        <hr>
+
+        <label name="Data">Data</label>
+        <br>
+        <input type="date" name="Data" id="Data" required>
+
+        <hr>
+
+        <label name="Hora">Horario do agendamento (06:00 as 20:00)</label>
+        <br>
+        <input type="time" name="Hora" id="Hora" required>
+
+        <br>
+        <br>
+
+        <label name="check">Seu bichinho foi adotado aqui?</label>
+        <input type="checkbox" name="check" id="check"> 
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
