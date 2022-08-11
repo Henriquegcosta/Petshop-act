@@ -1,0 +1,47 @@
+.Navegador td a{
+    text-decoration: none;
+    color: black;
+}
+
+.Navegador td a b{
+    background: rgb(73, 73, 147);
+    border-radius: 10px;
+    
+}
+
+.Navegador td a:hover{
+    background: rgb(109, 130, 171);
+    border-radius: 10px;
+}
+
+.TabelaNav {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: rgb(126, 126, 255);
+    width: 100%;
+    height: 50px;
+}
+
+body {
+    margin: 0;
+}
+
+.Logo{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: translate(10px, -65px);
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    background-color: rgba(0, 55, 255, 0.603);
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    
+
+
+    
+}
